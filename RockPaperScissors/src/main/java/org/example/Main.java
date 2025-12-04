@@ -2,10 +2,15 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        //https://adventofcode.com/2022/day/2
+        String[] dane = {
+                "A Y",
+                "B X",
+                "C Z"
+        };
+
+        Gra gra = new Gra();
+        int wynik = gra.policzCalaGre(dane);
+
+        System.out.println(wynik);
     }
-
-
-
 }
